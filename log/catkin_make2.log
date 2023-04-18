@@ -1,0 +1,2179 @@
+(base) xilm@xilm-MS-7D17:~/fuxian/Camera_lidar_fusion_ros/catkin_workspace$ catkin_make -DCMAKE_BUILD_TYPE=Release
+Base path: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace
+Source space: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src
+Build space: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build
+Devel space: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/devel
+Install space: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/install
+WARNING: Package name "depthGet" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+####
+#### Running command: "make cmake_check_build_system" in "/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build"
+####
+-- Using CATKIN_DEVEL_PREFIX: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /home/xilm/anaconda3/bin/python3 (found suitable version "3.9.13", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/xilm/anaconda3/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /home/xilm/anaconda3/lib/python3.9/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /home/xilm/anaconda3/bin/python3 (found version "3.9.13") 
+-- Using Python nosetests: /home/xilm/anaconda3/bin/nosetests-3.9
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "depthGet" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 6 packages in topological order:
+-- ~~  - darknet_ros_msgs
+-- ~~  - darknet_ros
+-- ~~  - depthGet
+-- ~~  - kitti_player
+-- ~~  - opencv_deal
+-- ~~  - pcl_deal
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'darknet_ros_msgs'
+-- ==> add_subdirectory(Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Generating .msg files for action darknet_ros_msgs/CheckForObjects /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros_msgs/action/CheckForObjects.action
+-- darknet_ros_msgs: 9 messages, 0 services
+-- +++ processing catkin package: 'darknet_ros'
+-- ==> add_subdirectory(Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros)
+Darknet path dir = /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet
+-- CUDA Version: 
+-- CUDA Libararies: /usr/local/cuda-11.2/lib64/libcudart_static.a;Threads::Threads;dl;/usr/lib/x86_64-linux-gnu/librt.so
+-- Searching for X11...
+--  X11_INCLUDE_DIR: /usr/include
+--  X11_LIBRARIES: /usr/lib/x86_64-linux-gnu/libSM.so/usr/lib/x86_64-linux-gnu/libICE.so/usr/lib/x86_64-linux-gnu/libX11.so/usr/lib/x86_64-linux-gnu/libXext.so
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Checking and downloading yolov2-tiny.weights if needed ...
+-- Checking and downloading yolov3.weights if needed ...
+-- Checking and downloading yolov2.weights if needed ...
+-- +++ processing catkin package: 'depthGet'
+-- ==> add_subdirectory(Camera-Lidar-Fusion-ROS-master/depthGet)
+CMake Deprecation Warning at Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/depthGet/CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- depthGet: 4 messages, 0 services
+WARNING: Package name "depthGet" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- +++ processing catkin package: 'kitti_player'
+-- ==> add_subdirectory(Camera-Lidar-Fusion-ROS-master/kitti_player)
+CMake Deprecation Warning at Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.8") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: thread system program_options chrono date_time atomic 
+-- +++ processing catkin package: 'opencv_deal'
+-- ==> add_subdirectory(Camera-Lidar-Fusion-ROS-master/opencv_deal)
+CMake Deprecation Warning at Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+-- opencv_deal: 2 messages, 0 services
+-- +++ processing catkin package: 'pcl_deal'
+-- ==> add_subdirectory(Camera-Lidar-Fusion-ROS-master/pcl_deal)
+CMake Deprecation Warning at Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /home/xilm/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build
+####
+#### Running command: "make -j16 -l16" in "/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build"
+####
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsResult
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsFeedback
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsActionGoal
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_BoundingBox
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_BoundingBoxes
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsActionResult
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsActionFeedback
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target kitti_player_gencfg
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsAction
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsGoal
+[  1%] Building CXX object Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeFiles/showROI.dir/src/showROI.cpp.o
+[  6%] Built target darknet_ros_msgs_generate_messages_cpp
+[ 12%] Built target darknet_ros_msgs_generate_messages_py
+[ 12%] Built target _depthGet_generate_messages_check_deps_BboxL
+[ 12%] Built target _depthGet_generate_messages_check_deps_BoundingBoxes
+[ 12%] Built target _depthGet_generate_messages_check_deps_BboxLes
+[ 12%] Built target _depthGet_generate_messages_check_deps_BoundingBox
+[ 20%] Built target darknet_ros_msgs_generate_messages_eus
+[ 23%] Built target darknet_ros_msgs_generate_messages_lisp
+[ 24%] Building CXX object Camera-Lidar-Fusion-ROS-master/depthGet/CMakeFiles/depthget.dir/src/depthget.cpp.o
+[ 24%] Building NVCC (Device) object Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o
+[ 24%] Building NVCC (Device) object Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o
+[ 29%] Built target darknet_ros_msgs_generate_messages_nodejs
+[ 29%] Building CXX object Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeFiles/kitti_player.dir/src/kitti_player.cpp.o
+[ 29%] Building NVCC (Device) object Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o
+[ 31%] Built target depthGet_generate_messages_cpp
+[ 34%] Built target depthGet_generate_messages_py
+[ 37%] Built target depthGet_generate_messages_eus
+[ 40%] Built target depthGet_generate_messages_lisp
+[ 41%] Building NVCC (Device) object Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o
+[ 42%] Building NVCC (Device) object Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o
+[ 43%] Building NVCC (Device) object Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o
+[ 44%] Building CXX object Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeFiles/pclvis.dir/src/pclvis.cpp.o
+[ 45%] Building CXX object Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeFiles/pointdeal.dir/src/pointdeal.cpp.o
+nvcc fatal   : Unsupported gpu architecture 'compute_30'
+[ 45%] Building CXX object Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeFiles/ROIviewer.dir/src/ROIviewer.cpp.o
+[ 46%] Building CXX object Camera-Lidar-Fusion-ROS-master/pcl_deal/CMakeFiles/pclvirualtest.dir/src/pclvirualtest.cpp.o
+nvcc fatal   : Unsupported gpu architecture 'compute_30'
+[ 48%] Built target depthGet_generate_messages_nodejs
+nvcc fatal   : Unsupported gpu architecture 'compute_30'
+CMake Error at darknet_ros_lib_generated_maxpool_layer_kernels.cu.o.Release.cmake:220 (message):
+  Error generating
+  /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_maxpool_layer_kernels.cu.o
+
+
+CMake Error at darknet_ros_lib_generated_activation_kernels.cu.o.Release.cmake:220 (message):
+  Error generating
+  /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_activation_kernels.cu.o
+
+
+CMake Error at darknet_ros_lib_generated_avgpool_layer_kernels.cu.o.Release.cmake:220 (message):
+  Error generating
+  /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_avgpool_layer_kernels.cu.o
+
+
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make:140: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make:91: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o] Error 1
+nvcc fatal   : Unsupported gpu architecture 'compute_30'
+[ 49%] Building NVCC (Device) object Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o
+CMake Error at darknet_ros_lib_generated_blas_kernels.cu.o.Release.cmake:220 (message):
+  Error generating
+  /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_blas_kernels.cu.o
+
+
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make:105: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o] Error 1
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make:77: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o] Error 1
+nvcc fatal   : Unsupported gpu architecture 'compute_30'
+CMake Error at darknet_ros_lib_generated_convolutional_kernels.cu.o.Release.cmake:220 (message):
+  Error generating
+  /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_convolutional_kernels.cu.o
+
+
+nvcc fatal   : Unsupported gpu architecture 'compute_30'
+CMake Error at darknet_ros_lib_generated_col2im_kernels.cu.o.Release.cmake:220 (message):
+  Error generating
+  /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_col2im_kernels.cu.o
+
+
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make:133: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o] Error 1
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make:119: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o] Error 1
+[ 49%] Built target darknet_ros_msgs_generate_messages
+[ 49%] Built target depthGet_generate_messages
+nvcc fatal   : Unsupported gpu architecture 'compute_30'
+CMake Error at darknet_ros_lib_generated_crop_layer_kernels.cu.o.Release.cmake:220 (message):
+  Error generating
+  /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/build/Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_crop_layer_kernels.cu.o
+
+
+[ 49%] Built target _opencv_deal_generate_messages_check_deps_BboxLes
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make:84: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2115: Camera-Lidar-Fusion-ROS-master/darknet_ros_old/darknet_ros/CMakeFiles/darknet_ros_lib.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 49%] Built target _opencv_deal_generate_messages_check_deps_BboxL
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/opencv_deal/src/showROI.cpp:19:10: fatal error: opencv_deal/BboxLes.h: No such file or directory
+   19 | #include <opencv_deal/BboxLes.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeFiles/showROI.dir/build.make:76: Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeFiles/showROI.dir/src/showROI.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3594: Camera-Lidar-Fusion-ROS-master/opencv_deal/CMakeFiles/showROI.dir/all] Error 2
+In file included from /usr/include/boost/config/header_deprecated.hpp:18,
+                 from /usr/include/boost/progress.hpp:22,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:33:
+/usr/include/boost/progress.hpp:23:1: note: #pragma message: This header is deprecated. Use the facilities in <boost/timer/timer.hpp> instead.
+   23 | BOOST_HEADER_DEPRECATED( "the facilities in <boost/timer/timer.hpp>" )
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/boost/timer.hpp:21:1: note: #pragma message: This header is deprecated. Use the facilities in <boost/timer/timer.hpp> instead.
+   21 | BOOST_HEADER_DEPRECATED( "the facilities in <boost/timer/timer.hpp>" )
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/pcl_deal/src/pclvis.cpp:40:28: warning: ISO C++ forbids declaration of ‘main’ with no type [-Wreturn-type]
+   40 | main (int argc, char **argv)
+      |                            ^
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/pcl_deal/src/pclvirualtest.cpp:63:28: warning: ISO C++ forbids declaration of ‘main’ with no type [-Wreturn-type]
+   63 | main (int argc, char **argv)
+      |                            ^
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp: In function ‘int main(int, char**)’:
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:848:61: error: ‘CV_WINDOW_AUTOSIZE’ was not declared in this scope
+  848 |             cv::namedWindow("CameraSimulator Color Viewer", CV_WINDOW_AUTOSIZE);
+      |                                                             ^~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:849:58: error: ‘str’ is not a member of ‘boost’
+  849 |             full_filename_image02 = dir_image02 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                          ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:849:69: error: ‘format’ is not a member of ‘boost’
+  849 |             full_filename_image02 = dir_image02 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                                     ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:849:69: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:850:60: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+  850 |             cv_image02 = cv::imread(full_filename_image02, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:856:65: error: ‘CV_WINDOW_AUTOSIZE’ was not declared in this scope
+  856 |             cv::namedWindow("CameraSimulator Grayscale Viewer", CV_WINDOW_AUTOSIZE);
+      |                                                                 ^~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:857:58: error: ‘str’ is not a member of ‘boost’
+  857 |             full_filename_image00 = dir_image00 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                          ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:857:69: error: ‘format’ is not a member of ‘boost’
+  857 |             full_filename_image00 = dir_image00 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                                     ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:857:69: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:858:60: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+  858 |             cv_image00 = cv::imread(full_filename_image00, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:864:56: error: ‘CV_WINDOW_AUTOSIZE’ was not declared in this scope
+  864 |             cv::namedWindow("Precomputed Disparities", CV_WINDOW_AUTOSIZE);
+      |                                                        ^~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:865:66: error: ‘str’ is not a member of ‘boost’
+  865 |             full_filename_Disparities = dir_Disparities + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                                  ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:865:77: error: ‘format’ is not a member of ‘boost’
+  865 |             full_filename_Disparities = dir_Disparities + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                                             ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:865:77: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:866:68: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+  866 |             cv_disparities = cv::imread(full_filename_Disparities, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:914:54: error: ‘str’ is not a member of ‘boost’
+  914 |         full_filename_image02 = dir_image02 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                      ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:914:65: error: ‘format’ is not a member of ‘boost’
+  914 |         full_filename_image02 = dir_image02 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                                 ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:914:65: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:915:56: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+  915 |         cv_image02 = cv::imread(full_filename_image02, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:933:54: error: ‘str’ is not a member of ‘boost’
+  933 |         full_filename_image00 = dir_image00 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                      ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:933:65: error: ‘format’ is not a member of ‘boost’
+  933 |         full_filename_image00 = dir_image00 + boost::str(boost::format("%010d") % 0 ) + ".png";
+      |                                                                 ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:933:65: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:934:56: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+  934 |         cv_image00 = cv::imread(full_filename_image00, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:972:58: error: ‘str’ is not a member of ‘boost’
+  972 |             full_filename_image04 = dir_image04 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                          ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:972:69: error: ‘format’ is not a member of ‘boost’
+  972 |             full_filename_image04 = dir_image04 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                                     ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:972:69: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:973:60: error: ‘CV_LOAD_IMAGE_GRAYSCALE’ was not declared in this scope
+  973 |             cv_image04 = cv::imread(full_filename_image04, CV_LOAD_IMAGE_GRAYSCALE);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1007:66: error: ‘str’ is not a member of ‘boost’
+ 1007 |             full_filename_Disparities = dir_Disparities + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                                  ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1007:77: error: ‘format’ is not a member of ‘boost’
+ 1007 |             full_filename_Disparities = dir_Disparities + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                                             ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1007:77: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1008:68: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+ 1008 |             cv_disparities = cv::imread(full_filename_Disparities, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1009:73: error: ‘CV_FONT_HERSHEY_SIMPLEX’ was not declared in this scope
+ 1009 |             cv::putText(cv_disparities, "KittiPlayer", cvPoint(20, 15), CV_FONT_HERSHEY_SIMPLEX, 0.4, cvScalar(0, 255, 0), 1, CV_AA);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1009:127: error: ‘CV_AA’ was not declared in this scope
+ 1009 |             cv::putText(cv_disparities, "KittiPlayer", cvPoint(20, 15), CV_FONT_HERSHEY_SIMPLEX, 0.4, cvScalar(0, 255, 0), 1, CV_AA);
+      |                                                                                                                               ^~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1010:48: error: ‘str’ is not a member of ‘boost’
+ 1010 |             cv::putText(cv_disparities, boost::str(boost::format("%5d") % entries_played ), cvPoint(cv_disparities.size().width - 100, 30), CV_FONT_HERSHEY_DUPLEX, 1.0, cvScalar(0, 0, 255), 1, CV_AA);
+      |                                                ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1010:59: error: ‘format’ is not a member of ‘boost’
+ 1010 |             cv::putText(cv_disparities, boost::str(boost::format("%5d") % entries_played ), cvPoint(cv_disparities.size().width - 100, 30), CV_FONT_HERSHEY_DUPLEX, 1.0, cvScalar(0, 0, 255), 1, CV_AA);
+      |                                                           ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1010:59: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1010:141: error: ‘CV_FONT_HERSHEY_DUPLEX’ was not declared in this scope
+ 1010 |             cv::putText(cv_disparities, boost::str(boost::format("%5d") % entries_played ), cvPoint(cv_disparities.size().width - 100, 30), CV_FONT_HERSHEY_DUPLEX, 1.0, cvScalar(0, 0, 255), 1, CV_AA);
+      |                                                                                                                                             ^~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1016:58: error: ‘str’ is not a member of ‘boost’
+ 1016 |             full_filename_image02 = dir_image02 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                          ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1016:69: error: ‘format’ is not a member of ‘boost’
+ 1016 |             full_filename_image02 = dir_image02 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                                     ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1016:69: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1017:58: error: ‘str’ is not a member of ‘boost’
+ 1017 |             full_filename_image03 = dir_image03 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                          ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1017:69: error: ‘format’ is not a member of ‘boost’
+ 1017 |             full_filename_image03 = dir_image03 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                                     ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1017:69: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1020:60: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+ 1020 |             cv_image02 = cv::imread(full_filename_image02, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1098:58: error: ‘str’ is not a member of ‘boost’
+ 1098 |             full_filename_image00 = dir_image00 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                          ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1098:69: error: ‘format’ is not a member of ‘boost’
+ 1098 |             full_filename_image00 = dir_image00 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                                     ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1098:69: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1099:58: error: ‘str’ is not a member of ‘boost’
+ 1099 |             full_filename_image01 = dir_image01 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                          ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1099:69: error: ‘format’ is not a member of ‘boost’
+ 1099 |             full_filename_image01 = dir_image01 + boost::str(boost::format("%010d") % entries_played ) + ".png";
+      |                                                                     ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1099:69: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1102:60: error: ‘CV_LOAD_IMAGE_UNCHANGED’ was not declared in this scope
+ 1102 |             cv_image00 = cv::imread(full_filename_image00, CV_LOAD_IMAGE_UNCHANGED);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1180:67: error: ‘str’ is not a member of ‘boost’
+ 1180 |             full_filename_velodyne = dir_velodyne_points + boost::str(boost::format("%010d") % entries_played ) + ".bin";
+      |                                                                   ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1180:78: error: ‘format’ is not a member of ‘boost’
+ 1180 |             full_filename_velodyne = dir_velodyne_points + boost::str(boost::format("%010d") % entries_played ) + ".bin";
+      |                                                                              ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1180:78: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1221:52: error: ‘str’ is not a member of ‘boost’
+ 1221 |             full_filename_oxts = dir_oxts + boost::str(boost::format("%010d") % entries_played ) + ".txt";
+      |                                                    ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1221:63: error: ‘format’ is not a member of ‘boost’
+ 1221 |             full_filename_oxts = dir_oxts + boost::str(boost::format("%010d") % entries_played ) + ".txt";
+      |                                                               ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1221:63: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1310:52: error: ‘str’ is not a member of ‘boost’
+ 1310 |             full_filename_oxts = dir_oxts + boost::str(boost::format("%010d") % entries_played ) + ".txt";
+      |                                                    ^~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1310:63: error: ‘format’ is not a member of ‘boost’
+ 1310 |             full_filename_oxts = dir_oxts + boost::str(boost::format("%010d") % entries_played ) + ".txt";
+      |                                                               ^~~~~~
+/home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:1310:63: note: suggested alternatives:
+In file included from /usr/include/opencv4/opencv2/core.hpp:3291,
+                 from /usr/include/opencv4/opencv2/core/core.hpp:48,
+                 from /opt/ros/noetic/include/cv_bridge/cv_bridge.h:43,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:35:
+/usr/include/opencv4/opencv2/core/operations.hpp:435:16: note:   ‘cv::format’
+  435 | Ptr<Formatted> format(InputArray mtx, Formatter::FormatType fmt)
+      |                ^~~~~~
+In file included from /usr/include/boost/locale.hpp:17,
+                 from /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/src/Camera-Lidar-Fusion-ROS-master/kitti_player/src/kitti_player.cpp:31:
+/usr/include/boost/locale/format.hpp:470:36: note:   ‘boost::locale::format’
+  470 |         typedef basic_format<char> format;
+      |                                    ^~~~~~
+make[2]: *** [Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeFiles/kitti_player.dir/build.make:76: Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeFiles/kitti_player.dir/src/kitti_player.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3185: Camera-Lidar-Fusion-ROS-master/kitti_player/CMakeFiles/kitti_player.dir/all] Error 2
+[ 49%] Linking CXX executable /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/devel/lib/pcl_deal/pclvis
+[ 49%] Built target pclvis
+[ 49%] Linking CXX executable /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/devel/lib/pcl_deal/pclvirualtest
+[ 49%] Built target pclvirualtest
+[ 50%] Linking CXX executable /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/devel/lib/pcl_deal/ROIviewer
+[ 50%] Linking CXX executable /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/devel/lib/pcl_deal/pointdeal
+[ 50%] Linking CXX executable /home/xilm/fuxian/Camera_lidar_fusion_ros/catkin_workspace/devel/lib/depthGet/depthget
+[ 50%] Built target ROIviewer
+[ 50%] Built target pointdeal
+[ 50%] Built target depthget
+make: *** [Makefile:146: all] Error 2
+Invoking "make -j16 -l16" failed
+(base) xilm@xilm-MS-7D17:~/fuxian/Camera_lidar_fusion_ros/catkin_workspace$ 
