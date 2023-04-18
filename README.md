@@ -6,4 +6,5 @@
 - [ROS使用自定义全局路径规划器编译时报错 ‘xxx’ is not a member of ‘pcl::traits’的解决方法](https://blog.csdn.net/qq_44339029/article/details/123751466)  
 - [关于opencv报错：未定义标识符"CV_WINDOW_AUTOSIZE"](https://blog.csdn.net/weixin_44312186/article/details/89000922)  
 - [【Debug】error: ‘format’ is not a member of ‘boost’](https://blog.csdn.net/xingdou520/article/details/84861434)  
-- 
+- [error: ‘CV_WINDOW_NORMAL’ was not declared in this scope](https://blog.csdn.net/weixin_43848456/article/details/123380782)  
+
