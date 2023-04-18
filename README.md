@@ -7,4 +7,7 @@
 - [关于opencv报错：未定义标识符"CV_WINDOW_AUTOSIZE"](https://blog.csdn.net/weixin_44312186/article/details/89000922)  
 - [【Debug】error: ‘format’ is not a member of ‘boost’](https://blog.csdn.net/xingdou520/article/details/84861434)  
 - [error: ‘CV_WINDOW_NORMAL’ was not declared in this scope](https://blog.csdn.net/weixin_43848456/article/details/123380782)  
+- [error: no matching function for call to ‘_IplImage::_IplImage(cv::Mat&)’](https://blog.csdn.net/weixin_41855010/article/details/111402710?ydreferer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%3D)  
 
+上面这个问题，应该在编译的时候换成`catkin_make -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-DCV__ENABLE_C_API_CTORS`  
+- []()
